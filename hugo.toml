@@ -1,9 +1,9 @@
 baseURL = '/'
 languageCode = 'zh-cn'
-title = '职场研习社 | Workplace Study Club'
+title = '安晓辉-职场研习社'
 contentDir = "content"
 enableEmoji = true
-enableGitInfo = false # N.B. .GitInfo does not currently function with submodule content directories
+enableGitInfo = true # N.B. .GitInfo does not currently function with submodule content directories
 
 [module]
   # uncomment line below for temporary local development of module
@@ -44,17 +44,17 @@ enableGitInfo = false # N.B. .GitInfo does not currently function with submodule
   mono_font       = "Fira Code" # Default is System font
 
     [params.footer]
-        copyright = "© :YEAR: 职场研习社. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
+        copyright = "© :YEAR: 安晓辉-职场研习社. Built with [**Lotus Docs**](https://github.com/colinwilson/lotusdocs)"
         version   = true # include git commit info in footer
 
     [params.social]
-        # github = "bingohuang/workplace-study-club" # github.com/YOUR_GITHUB_ID
+        github = "bingohuang/workplace-study-club" # github.com/YOUR_GITHUB_ID
         # twitter = "lotusdocs"            # twitter.com/YOUR_TWITTER_ID
         # instagram = "colinwilson"        # instagram.com/YOUR_INSTAGRAM_ID
         # rss = true                       # show rss icon with link
 
     [params.docs] # Parameters for the /docs 'template'
-        title           = "职场研习社-知识库"                        # default html title for documentation pages/sections
+        title           = "安晓辉-职场研习社@知识库"                        # default html title for documentation pages/sections
 
         # pathName        = "docs"                            # path for documentation site | default "docs"
 
@@ -68,7 +68,7 @@ enableGitInfo = false # N.B. .GitInfo does not currently function with submodule
 
         # gitinfo
         repoURL         = "https://github.com/bingohuang/workplace-study-club"  # Git repository URL for your site [support for GitHub, GitLab, and BitBucket]
-        repoBranch      = "release"                           # Name of your Git repository branch
+        repoBranch      = "main"                           # Name of your Git repository branch
         editPage        = true                                # enable 'Edit this page' feature - default false
         lastMod         = true                                # enable 'Last modified' date on pages - default false
         lastModRelative = true                                # format 'Last modified' time as relative - default true
@@ -143,13 +143,13 @@ enableGitInfo = false # N.B. .GitInfo does not currently function with submodule
         ]
 
 [[menu.primary]]
-    name  = "职场研习社-知识库"
+    name  = "安晓辉-职场研习社@知识库"
     url = "/docs/"
     identifier = "docs"
     weight = 10
 
 [[menu.primary]]
-    name  = "职场研习社-知识星球"
+    name  = "安晓辉-职场研习社@知识星球"
     url = "https://wx.zsxq.com/dweb2/index/group/145514111212"
     identifier = "community"
     weight = 20
