@@ -34,14 +34,14 @@ hero:
     boxShadow: true # default 'false' (excludes .svg images)
     rounded: true # round the image corners? default 'false' (excludes .svg images)
 
-  ctaButton:
-    icon: rocket_launch
-    btnText: "知识库"
-    url: "/docs"
+  # ctaButton:
+  #   icon: rocket_launch
+  #   btnText: "知识星球"
+  #   url: "https://wx.zsxq.com/dweb2/index/group/145514111212"
   cta2Button:
     icon: construction
-    btnText: "知识星球"
-    url: "https://wx.zsxq.com/dweb2/index/group/145514111212"
+    btnText: "知识库"
+    url: "/docs/"
 
   info: "欢迎加入"
 
