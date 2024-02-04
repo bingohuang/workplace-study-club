@@ -36,12 +36,12 @@ hero:
 
   ctaButton:
     icon: rocket_launch
-    btnText: "知识星球"
-    url: "https://wx.zsxq.com/dweb2/index/group/145514111212"
-  cta2Button:
-    icon: construction
     btnText: "知识库"
     url: "/docs"
+  cta2Button:
+    icon: construction
+    btnText: "知识星球"
+    url: "https://wx.zsxq.com/dweb2/index/group/145514111212"
 
   info: "欢迎加入"
 
