@@ -13,7 +13,7 @@ hero:
       mobile: "gradient-mobile.webp"
 
   badge:
-    text: v0.1.0
+    text: v1.0.0
     color: primary # primary, secondary, success, danger, warning, info, light, dark
     pill: false # boolean
     soft: true # boolean
@@ -25,7 +25,7 @@ hero:
   #   height: 80px
 
   title: "职场研习社"
-  subtitle: 职场研习社介绍
+  subtitle: 安晓辉老师的职场研习社
 
   image:
     path: "images" # path to image under configured assets directory. default 'images'
