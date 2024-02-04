@@ -9,4 +9,5 @@
 # @localhost
 # hugo server -D --bind 0.0.0.0 --port 2022 --baseURL "http://127.0.0.1:2022"
 
-nohup hugo server -D --bind 0.0.0.0 --port 2022 >> hugo.log 2>&1 &
+# @debug
+nohup hugo server -D --bind 0.0.0.0 --baseURL "http://42.120.6.212:2022" --port 2022 >> hugo.log 2>&1 &
